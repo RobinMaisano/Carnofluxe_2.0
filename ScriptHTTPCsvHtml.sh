@@ -1,7 +1,7 @@
 #!bin/bash
 
 LOG_CSV = "/srv/log.csv"					#Création des variables
-STATE_CSV = "/srv/state.csv"
+STATE_CSV = "/srv/supervision.csv"
 
 LOG_HTML = "/var/www/supervision/log.html"
 STATE_HTML = "/var/www/supervision/state.html"

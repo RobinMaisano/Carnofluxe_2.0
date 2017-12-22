@@ -33,6 +33,6 @@ else																											#stocker le temps de réponse
 fi 																												#on ne stocke pas le temps de réponse et on considère la page commme innacessible
 
 echo "$string" > /srv/supervision/supervision.csv									#On ecrit la string au format .csv dans le fichier
-scp /srv/supervision/supervision.csv root@192.168.145.139:/srv/						#On copie le fichier sur le serveur HTTP pour permettre son affichage
+scp /srv/supervision/supervision.csv root@192.168.88.10:/srv/						#On copie le fichier sur le serveur HTTP pour permettre son affichage
 
 exit 0
